@@ -3,6 +3,42 @@
  <head>
    <meta charset="utf-8">
    <title>My Portfolio</title>
+
+   <style>
+     body {background-color:violet;}
+     {
+       font-family: arial;
+     }
+
+     p.info
+      {color:purple;
+      text-align: center; }
+      p.info{border-style: solid;
+      border-width: 5px 12px;}
+      p.info
+       {color:purple;
+       text-align: center; }
+       p.info {font-size:30px;}
+      ol.list{
+        color:purple;
+      }
+     h1 {color: purple; text-align: center;
+       font-size:40px
+      }
+     h2 {color:purple;
+       margin-top: 20px
+       }
+       img.pics {padding-top: 70px
+       padding-right: 70px
+     padding-bottom: 70px;
+   padding-left: 70px}
+
+
+</style>
+
+
+   <meta charset="utf-8">
+   <title>My Portfolio</title>
 </head>
    <body>
      <header>
@@ -12,8 +48,8 @@
         <header>
           <h2>This webpage is all about me</h2>
         </header>
-        <img src=images/alex-and-me.jpg alt="picture of me and baby alexandra" width=200 height=200>
-        <p>Some of interesting things about me inculde...</p>
+        <img class="pics" src=images/alex-and-me.jpg alt="picture of me and baby alexandra" width=200 height=200>
+        <p class="info">Some of interesting things about me inculde...</p>
         <ul>
           <li>I was born in Seattle</li>
           <li>I have a 2 year old named Alexandra</li>
@@ -35,7 +71,7 @@
             <h4>Best Chicken Soup Recipe</h4>
           </header>
           <aside>
-              <p>list of ingredients</p>
+              <p class="info">list of ingredients</p>
             <ul>
               <li>Carcass and bones from one 4- to 5-pound roast chicken</li>
               <li>4 cups low-sodium chicken broth</li>
@@ -47,22 +83,22 @@
               <li>2 tabblespoons chopped parsley</li>
               <li>Kosher salt</li>
             </ul>
-            <p>Instructions</p>
-            <ol>
+            <p class="info"> Instructions</p>
+            <ol class="list">
                <li>First step</li>
              </ol>
              <ul>
                 <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
             </ul>
-              <ol>
+              <ol class="list">
                 <li>Seccond step</li>
-              </ol>
+              </ol class="list">
             <ul>
                 <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
               </ul>
-              <ol>
+              <ol class="list">
                 <li>Third step</li>
-              </ol>
+              </ol class="list">
               <ul>
                 <li> Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Massa sapien faucibus et molestie ac. Blandit volutpat maecenas volutpat blandit aliquam.</li>
               </ul>
