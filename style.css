@@ -12,9 +12,6 @@ text-align : center;
 }
 p.info {
 color : purple;
-text-align : center;
-}
-p.info {
 font-size : 30px;
 }
 ol.list {
@@ -26,6 +23,7 @@ border : dotted;
 text-align : center;
 letter-spacing : 5px;
 font-size : 40px;
+font-style: normal;
 }
 h2 {
 color : purple;
@@ -33,16 +31,19 @@ text-align : center;
 margin-top : 20px;
 }
 h3 {
-  color :magenta;
-text-align: center;
+color :purple;
+text-decoration: underline;
+text-align: left;
+font-size: 15px;
+font-style: italic;
 }
 h4{
   font-size:30px;
   text-align: center;
   letter-spacing: 2px;
 }
-img.pics
-a{
-  color: lightblue;
-  text-decoration: underline;
-}
+footer{
+  font-size: 8px
+  color: blue;
+  text-align: center;
+  }
