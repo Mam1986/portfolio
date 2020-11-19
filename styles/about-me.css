@@ -1,12 +1,12 @@
+ body{
+  background-color: blue;
+}
 *{
   font: 20px Arial Times;
 }
 *{
   box-sizing: border-box;
   }
-body{
-  background-color: blue;
-}
 
 p.info {
 margin:auto;
@@ -21,7 +21,6 @@ width:60%;
 font-size : 30px;
 }
 .list {
-margin:left;
 width:15%;
 background-color: black;
 color : purple;
@@ -58,13 +57,12 @@ h2 {
 
 }
 h3 {
-margin:left;
 width:30%;
 text-align:center;
 background-color:black;
 border-style:solid;
 color :purple;
-text-declaration:bold;
+text-decoration:bold;
 border-width:5px 5px;
 
 }
@@ -78,3 +76,21 @@ footer{
   font-size: 8px;
   text-align: center;
   }
+.page1 body{
+background-color:skyblue;
+}
+section p:nth-child(3n+0){
+  color:grey;}
+
+  .child li:nth-child(2n+1){
+    margin-top:1rem;
+    color:purple;
+    background-color: black;
+    width:40%;
+}
+.child li:nth-child(2n+0){
+  margin-top:1rem;
+  color:black;
+  background-color: purple;
+  width:40%;
+}
